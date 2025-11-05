@@ -55,6 +55,8 @@ boltzgen = ["resources/config/**/*"]
 
 [project.scripts]
 boltzgen = "boltzgen.cli.boltzgen:main"
+boltzgen-affinity = "boltzgen.cli.predict_affinity:main"
+boltzgen-score-ppi = "boltzgen.cli.score_ppi:main"
 
 [project.optional-dependencies]
 lint = ["ruff"]
